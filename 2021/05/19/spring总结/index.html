@@ -66,7 +66,7 @@
         <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://Quincy0624.github.io"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://quincy0624.github.io"></form>
       </div>
     </div>
   </div>
@@ -105,7 +105,7 @@
 <li>Spring面向切面编程（AOP）</li>
 <li>Spring MVC</li>
 </ul>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h1 id="Spring-概述"><a href="#Spring-概述" class="headerlink" title="Spring 概述"></a>Spring 概述</h1><hr>
+<h2 id><a href="#" class="headerlink" title></a></h2><h1 id="Spring-概述"><a href="#Spring-概述" class="headerlink" title="Spring 概述"></a>Spring 概述</h1><hr>
 <h3 id="1-什么是spring"><a href="#1-什么是spring" class="headerlink" title="1. 什么是spring?"></a>1. 什么是spring?</h3><p>Spring 是个java企业级应用的开源开发框架。Spring主要用来开发Java应用，但是有些扩展是针对构建J2EE平台的web应用。Spring 框架目标是简化Java企业级应用开发，并通过POJO为基础的编程模型促进良好的编程习惯。</p>
 <h3 id="2-使用Spring框架的好处是什么？"><a href="#2-使用Spring框架的好处是什么？" class="headerlink" title="2. 使用Spring框架的好处是什么？"></a>2. 使用Spring框架的好处是什么？</h3><ul>
 <li>轻量：Spring 是轻量的，基本的版本大约2MB。</li>
@@ -156,22 +156,22 @@
 <li>Spring 的XML 配置文件。</li>
 <li>使用以上功能的客户端程序。</li>
 </ul>
-<h2 id="-1"><a href="#-1" class="headerlink" title=""></a></h2><h1 id="依赖注入"><a href="#依赖注入" class="headerlink" title="依赖注入"></a>依赖注入</h1><hr>
+<h2 id="-1"><a href="#-1" class="headerlink" title></a></h2><h1 id="依赖注入"><a href="#依赖注入" class="headerlink" title="依赖注入"></a>依赖注入</h1><hr>
 <h3 id="18-什么是Spring的依赖注入？"><a href="#18-什么是Spring的依赖注入？" class="headerlink" title="18. 什么是Spring的依赖注入？"></a>18. 什么是Spring的依赖注入？</h3><p>依赖注入，是IOC的一个方面，是个通常的概念，它有多种解释。这概念是说你不用创建对象，而只需要描述它如何被创建。你不在代码里直接组装你的组件和服务，但是要在配置文件里描述哪些组件需要哪些服务，之后一个容器（IOC容器）负责把他们组装起来。</p>
 <h3 id="19-有哪些不同类型的IOC（依赖注入）方式？"><a href="#19-有哪些不同类型的IOC（依赖注入）方式？" class="headerlink" title="19. 有哪些不同类型的IOC（依赖注入）方式？"></a>19. 有哪些不同类型的IOC（依赖注入）方式？</h3><ul>
 <li>构造器依赖注入：构造器依赖注入通过容器触发一个类的构造器来实现的，该类有一系列参数，每个参数代表一个对其他类的依赖。</li>
 <li>Setter方法注入：Setter方法注入是容器通过调用无参构造器或无参static工厂 方法实例化bean之后，调用该bean的setter方法，即实现了基于setter的依赖注入。</li>
 </ul>
 <h3 id="20-哪种依赖注入方式你建议使用，构造器注入，还是-Setter方法注入？"><a href="#20-哪种依赖注入方式你建议使用，构造器注入，还是-Setter方法注入？" class="headerlink" title="20. 哪种依赖注入方式你建议使用，构造器注入，还是 Setter方法注入？"></a>20. 哪种依赖注入方式你建议使用，构造器注入，还是 Setter方法注入？</h3><p>你两种依赖方式都可以使用，构造器注入和Setter方法注入。最好的解决方案是用构造器参数实现强制依赖，setter方法实现可选依赖。</p>
-<h2 id="-2"><a href="#-2" class="headerlink" title=""></a></h2><h1 id="Spring-Beans"><a href="#Spring-Beans" class="headerlink" title="Spring Beans"></a>Spring Beans</h1><hr>
-<h3 id="21-什么是Spring-beans"><a href="#21-什么是Spring-beans" class="headerlink" title="21.什么是Spring beans?"></a>21.什么是Spring beans?</h3><p>Spring beans 是那些形成Spring应用的主干的java对象。它们被Spring IOC容器初始化，装配，和管理。这些beans通过容器中配置的元数据创建。比如，以XML文件中<bean/> 的形式定义。</p>
+<h2 id="-2"><a href="#-2" class="headerlink" title></a></h2><h1 id="Spring-Beans"><a href="#Spring-Beans" class="headerlink" title="Spring Beans"></a>Spring Beans</h1><hr>
+<h3 id="21-什么是Spring-beans"><a href="#21-什么是Spring-beans" class="headerlink" title="21.什么是Spring beans?"></a>21.什么是Spring beans?</h3><p>Spring beans 是那些形成Spring应用的主干的java对象。它们被Spring IOC容器初始化，装配，和管理。这些beans通过容器中配置的元数据创建。比如，以XML文件中<bean> 的形式定义。</bean></p>
 <p>Spring 框架定义的beans都是单件beans。在bean tag中有个属性”singleton”，如果它被赋为 TRUE，bean 就是单件，否则就是一个 prototype bean。默认是TRUE，所以所有在Spring框架中的beans 缺省都是单 件。</p>
 <h3 id="22-一个-Spring-Bean-定义-包含什么？"><a href="#22-一个-Spring-Bean-定义-包含什么？" class="headerlink" title="22. 一个 Spring Bean 定义 包含什么？"></a>22. 一个 Spring Bean 定义 包含什么？</h3><p>一个Spring Bean 的定义包含容器必知的所有配置元数据，包括如何创建一个bean，它的生命周期详情及它的依赖。</p>
 <h3 id="23-如何给Spring-容器提供配置元数据"><a href="#23-如何给Spring-容器提供配置元数据" class="headerlink" title="23. 如何给Spring 容器提供配置元数据?"></a>23. 如何给Spring 容器提供配置元数据?</h3><p>这里有三种重要的方法给Spring 容器提供配置元数据。</p>
 <p>XML配置文件。</p>
 <p>基于注解的配置。</p>
 <p>基于java的配置。</p>
-<h3 id="24-你怎样定义类的作用域"><a href="#24-你怎样定义类的作用域" class="headerlink" title="24. 你怎样定义类的作用域?"></a>24. 你怎样定义类的作用域?</h3><p>当定义一个<bean> 在Spring里，我们还能给这个bean声明一个作用域。它可以通过bean 定义中的scope属性来定 义。如，当Spring要在需要的时候每次生产一个新的bean实例，bean的scope属性被指定为prototype。另一方面，一个bean每次 使用的时候必须返回同一个实例，这个bean的scope 属性 必须设为 singleton。</p>
+<h3 id="24-你怎样定义类的作用域"><a href="#24-你怎样定义类的作用域" class="headerlink" title="24. 你怎样定义类的作用域?"></a>24. 你怎样定义类的作用域?</h3><p>当定义一个<bean> 在Spring里，我们还能给这个bean声明一个作用域。它可以通过bean 定义中的scope属性来定 义。如，当Spring要在需要的时候每次生产一个新的bean实例，bean的scope属性被指定为prototype。另一方面，一个bean每次 使用的时候必须返回同一个实例，这个bean的scope 属性 必须设为 singleton。</bean></p>
 <h3 id="25-解释Spring支持的几种bean的作用域。"><a href="#25-解释Spring支持的几种bean的作用域。" class="headerlink" title="25. 解释Spring支持的几种bean的作用域。"></a>25. 解释Spring支持的几种bean的作用域。</h3><p>Spring框架支持以下五种bean的作用域：</p>
 <ul>
 <li>singleton : bean在每个Spring ioc 容器中只有一个实例。</li>
@@ -194,16 +194,16 @@
 </ul>
 <h3 id="28-哪些是重要的bean生命周期方法？-你能重载它们吗？"><a href="#28-哪些是重要的bean生命周期方法？-你能重载它们吗？" class="headerlink" title="28. 哪些是重要的bean生命周期方法？ 你能重载它们吗？"></a>28. 哪些是重要的bean生命周期方法？ 你能重载它们吗？</h3><p>有两个重要的bean 生命周期方法，第一个是setup ， 它是在容器加载bean的时候被调用。第二个方法是 teardown 它是在容器卸载类的时候被调用。</p>
 <p>The bean 标签有两个重要的属性（init-method和destroy-method）。用它们你可以自己定制初始化和注销方法。它们也有相应的注解（@PostConstruct和@PreDestroy）。</p>
-<h3 id="29-什么是Spring的内部bean？"><a href="#29-什么是Spring的内部bean？" class="headerlink" title="29. 什么是Spring的内部bean？"></a>29. 什么是Spring的内部bean？</h3><p>当一个bean仅被用作另一个bean的属性时，它能被声明为一个内部bean，为了定义inner bean，在Spring 的 基于XML 的 配置元数据中，可以在 <property/>或 <constructor-arg/> 元素内使用<bean /> 元素，内部bean通常是匿名的，它们的Scope一般是prototype。</p>
+<h3 id="29-什么是Spring的内部bean？"><a href="#29-什么是Spring的内部bean？" class="headerlink" title="29. 什么是Spring的内部bean？"></a>29. 什么是Spring的内部bean？</h3><p>当一个bean仅被用作另一个bean的属性时，它能被声明为一个内部bean，为了定义inner bean，在Spring 的 基于XML 的 配置元数据中，可以在 <property>或 <constructor-arg> 元素内使用<bean> 元素，内部bean通常是匿名的，它们的Scope一般是prototype。</bean></constructor-arg></property></p>
 <h3 id="30-在-Spring中如何注入一个java集合？"><a href="#30-在-Spring中如何注入一个java集合？" class="headerlink" title="30. 在 Spring中如何注入一个java集合？"></a>30. 在 Spring中如何注入一个java集合？</h3><p>Spring提供以下几种集合的配置元素：</p>
 <ul>
-<li><list>类型用于注入一列值，允许有相同的值。</li>
-<li><set> 类型用于注入一组值，不允许有相同的值。</li>
-<li><map> 类型用于注入一组键值对，键和值都可以为任意类型。</li>
-<li><props>类型用于注入一组键值对，键和值都只能为String类型。</li>
+<li><list>类型用于注入一列值，允许有相同的值。</list></li>
+<li><set> 类型用于注入一组值，不允许有相同的值。</set></li>
+<li><map> 类型用于注入一组键值对，键和值都可以为任意类型。</map></li>
+<li><props>类型用于注入一组键值对，键和值都只能为String类型。</props></li>
 </ul>
 <h3 id="31-什么是bean装配"><a href="#31-什么是bean装配" class="headerlink" title="31. 什么是bean装配?"></a>31. 什么是bean装配?</h3><p>装配，或bean 装配是指在Spring 容器中把bean组装到一起，前提是容器需要知道bean的依赖关系，如何通过依赖注入来把它们装配到一起。</p>
-<h3 id="32-什么是bean的自动装配？"><a href="#32-什么是bean的自动装配？" class="headerlink" title="32. 什么是bean的自动装配？"></a>32. 什么是bean的自动装配？</h3><p>Spring 容器能够自动装配相互合作的bean，这意味着容器不需要<constructor-arg>和<property>配置，能通过Bean工厂自动处理bean之间的协作。</p>
+<h3 id="32-什么是bean的自动装配？"><a href="#32-什么是bean的自动装配？" class="headerlink" title="32. 什么是bean的自动装配？"></a>32. 什么是bean的自动装配？</h3><p>Spring 容器能够自动装配相互合作的bean，这意味着容器不需要<constructor-arg>和<property>配置，能通过Bean工厂自动处理bean之间的协作。</property></constructor-arg></p>
 <h3 id="33-解释不同方式的自动装配-。"><a href="#33-解释不同方式的自动装配-。" class="headerlink" title="33. 解释不同方式的自动装配 。"></a>33. 解释不同方式的自动装配 。</h3><p>有五种自动装配的方式，可以用来指导Spring容器用自动装配方式来进行依赖注入。</p>
 <ul>
 <li>no：默认的方式是不进行自动装配，通过显式设置ref 属性来进行装配。</li>
@@ -214,12 +214,12 @@
 </ul>
 <h3 id="34-自动装配有哪些局限性"><a href="#34-自动装配有哪些局限性" class="headerlink" title="34.自动装配有哪些局限性 ?"></a>34.自动装配有哪些局限性 ?</h3><p>自动装配的局限性是：</p>
 <ul>
-<li>重写： 你仍需用 <constructor-arg>和 <property> 配置来定义依赖，意味着总要重写自动装配。</li>
+<li>重写： 你仍需用 <constructor-arg>和 <property> 配置来定义依赖，意味着总要重写自动装配。</property></constructor-arg></li>
 <li>基本数据类型：你不能自动装配简单的属性，如基本数据类型，String字符串，和类。</li>
 <li>模糊特性：自动装配不如显式装配精确，如果有可能，建议使用显式装配。</li>
 </ul>
 <h3 id="35-你可以在Spring中注入一个null-和一个空字符串吗？"><a href="#35-你可以在Spring中注入一个null-和一个空字符串吗？" class="headerlink" title="35. 你可以在Spring中注入一个null 和一个空字符串吗？"></a>35. 你可以在Spring中注入一个null 和一个空字符串吗？</h3><p>可以。</p>
-<h2 id="-3"><a href="#-3" class="headerlink" title=""></a></h2><h1 id="Spring注解"><a href="#Spring注解" class="headerlink" title="Spring注解"></a>Spring注解</h1><hr>
+<h2 id="-3"><a href="#-3" class="headerlink" title></a></h2><h1 id="Spring注解"><a href="#Spring注解" class="headerlink" title="Spring注解"></a>Spring注解</h1><hr>
 <h3 id="36-什么是基于Java的Spring注解配置-给一些注解的例子"><a href="#36-什么是基于Java的Spring注解配置-给一些注解的例子" class="headerlink" title="36. 什么是基于Java的Spring注解配置? 给一些注解的例子."></a>36. 什么是基于Java的Spring注解配置? 给一些注解的例子.</h3><p>基于Java的配置，允许你在少量的Java注解的帮助下，进行你的大部分Spring配置而非通过XML文件。</p>
 <p>以@Configuration 注解为例，它用来标记类可以当做一个bean的定义，被Spring IOC容器使用。另一个例子是@Bean注解，它表示此方法将要返回一个对象，作为一个bean注册进Spring应用上下文。</p>
 <h3 id="37-什么是基于注解的容器配置"><a href="#37-什么是基于注解的容器配置" class="headerlink" title="37. 什么是基于注解的容器配置?"></a>37. 什么是基于注解的容器配置?</h3><p>相对于XML文件，注解型的配置依赖于通过字节码元数据装配组件，而非尖括号的声明。</p>
@@ -228,7 +228,7 @@
 <h3 id="39-Required-注解"><a href="#39-Required-注解" class="headerlink" title="39. @Required 注解"></a>39. @Required 注解</h3><p>这个注解表明bean的属性必须在配置的时候设置，通过一个bean定义的显式的属性值或通过自动装配，若@Required注解的bean属性未被设置，容器将抛出BeanInitializationException。</p>
 <h3 id="40-Autowired-注解"><a href="#40-Autowired-注解" class="headerlink" title="40. @Autowired 注解"></a>40. @Autowired 注解</h3><p>@Autowired 注解提供了更细粒度的控制，包括在何处以及如何完成自动装配。它的用法和@Required一样，修饰setter方法、构造器、属性或者具有任意名称和/或多个参数的PN方法。</p>
 <h3 id="41-Qualifier-注解"><a href="#41-Qualifier-注解" class="headerlink" title="41. @Qualifier 注解"></a>41. @Qualifier 注解</h3><p>当有多个相同类型的bean却只有一个需要自动装配时，将@Qualifier 注解和@Autowire 注解结合使用以消除这种混淆，指定需要装配的确切的bean。</p>
-<h2 id="-4"><a href="#-4" class="headerlink" title=""></a></h2><h1 id="Spring数据访问"><a href="#Spring数据访问" class="headerlink" title="Spring数据访问"></a>Spring数据访问</h1><hr>
+<h2 id="-4"><a href="#-4" class="headerlink" title></a></h2><h1 id="Spring数据访问"><a href="#Spring数据访问" class="headerlink" title="Spring数据访问"></a>Spring数据访问</h1><hr>
 <h3 id="42-在Spring框架中如何更有效地使用JDBC"><a href="#42-在Spring框架中如何更有效地使用JDBC" class="headerlink" title="42.在Spring框架中如何更有效地使用JDBC?"></a>42.在Spring框架中如何更有效地使用JDBC?</h3><p>使用SpringJDBC 框架，资源管理和错误处理的代价都会被减轻。所以开发者只需写statements 和 queries从数据存取数据，JDBC也可以在Spring框架提供的模板类的帮助下更有效地被使用，这个模板叫JdbcTemplate （例子见这里<a target="_blank" rel="noopener" href="http://examples.javacodegeeks.com/enterprise-java/spring/jdbc/spring-jdbctemplate-example/">here</a>）</p>
 <h3 id="43-JdbcTemplate"><a href="#43-JdbcTemplate" class="headerlink" title="43. JdbcTemplate"></a>43. JdbcTemplate</h3><p>JdbcTemplate 类提供了很多便利的方法解决诸如把数据库数据转变成基本数据类型或对象，执行写好的或可调用的数据库操作语句，提供自定义的数据错误处理。</p>
 <h3 id="44-Spring对DAO的支持"><a href="#44-Spring对DAO的支持" class="headerlink" title="44. Spring对DAO的支持"></a>44. Spring对DAO的支持</h3><p>Spring对数据访问对象（DAO）的支持旨在简化它和数据访问技术如JDBC，Hibernate or JDO 结合使用。这使我们可以方便切换持久层。编码时也不用担心会捕获每种技术特有的异常。</p>
@@ -264,7 +264,7 @@
 <li>它和Spring各种数据访问抽象层很好得集成。</li>
 </ul>
 <h3 id="50-你更倾向用那种事务管理类型？"><a href="#50-你更倾向用那种事务管理类型？" class="headerlink" title="50. 你更倾向用那种事务管理类型？"></a>50. 你更倾向用那种事务管理类型？</h3><p>大多数Spring框架的用户选择声明式事务管理，因为它对应用代码的影响最小，因此更符合一个无侵入的轻量级容器的思想。声明式事务管理要优于编程式事务管理，虽然比编程式事务管理（这种方式允许你通过代码控制事务）少了一点灵活性。</p>
-<h2 id="-5"><a href="#-5" class="headerlink" title=""></a></h2><h1 id="Spring面向切面编程（AOP）"><a href="#Spring面向切面编程（AOP）" class="headerlink" title="Spring面向切面编程（AOP）"></a>Spring面向切面编程（AOP）</h1><hr>
+<h2 id="-5"><a href="#-5" class="headerlink" title></a></h2><h1 id="Spring面向切面编程（AOP）"><a href="#Spring面向切面编程（AOP）" class="headerlink" title="Spring面向切面编程（AOP）"></a>Spring面向切面编程（AOP）</h1><hr>
 <h3 id="51-解释AOP"><a href="#51-解释AOP" class="headerlink" title="51. 解释AOP"></a>51. 解释AOP</h3><p>面向切面的编程，或AOP， 是一种编程技术，允许程序模块化横向切割关注点，或横切典型的责任划分，如日志和事务管理。</p>
 <h3 id="52-Aspect-切面"><a href="#52-Aspect-切面" class="headerlink" title="52. Aspect 切面"></a>52. Aspect 切面</h3><p>AOP核心就是切面，它将多个类的通用行为封装成可重用的模块，该模块含有一组API提供横切功能。比如，一个日志模块可以被称作日志的AOP切面。根据需求的不同，一个应用程序可以有若干切面。在Spring AOP中，切面通过带有@Aspect注解的类实现。</p>
 <h3 id="52-在Spring-AOP-中，关注点和横切关注的区别是什么？"><a href="#52-在Spring-AOP-中，关注点和横切关注的区别是什么？" class="headerlink" title="52. 在Spring AOP 中，关注点和横切关注的区别是什么？"></a>52. 在Spring AOP 中，关注点和横切关注的区别是什么？</h3><p>关注点是应用中一个模块的行为，一个关注点可能会被定义成一个我们想实现的一个功能。<br>横切关注点是一个关注点，此关注点是整个应用都会使用的功能，并影响整个应用，比如日志，安全和数据传输，几乎应用的每个模块都需要的功能。因此这些都属于横切关注点。</p>
@@ -289,7 +289,7 @@
 <p>织入可以在编译时，加载时，或运行时完成。</p>
 <h3 id="62-解释基于XML-Schema方式的切面实现。"><a href="#62-解释基于XML-Schema方式的切面实现。" class="headerlink" title="62. 解释基于XML Schema方式的切面实现。"></a>62. 解释基于XML Schema方式的切面实现。</h3><p>在这种情况下，切面由常规类以及基于XML的配置实现。</p>
 <h3 id="63-解释基于注解的切面实现"><a href="#63-解释基于注解的切面实现" class="headerlink" title="63. 解释基于注解的切面实现"></a>63. 解释基于注解的切面实现</h3><p>在这种情况下(基于@AspectJ的实现)，涉及到的切面声明的风格与带有java5标注的普通java类一致。</p>
-<h2 id="-6"><a href="#-6" class="headerlink" title=""></a></h2><h1 id="Spring-的MVC"><a href="#Spring-的MVC" class="headerlink" title="Spring 的MVC"></a>Spring 的MVC</h1><hr>
+<h2 id="-6"><a href="#-6" class="headerlink" title></a></h2><h1 id="Spring-的MVC"><a href="#Spring-的MVC" class="headerlink" title="Spring 的MVC"></a>Spring 的MVC</h1><hr>
 <h3 id="64-什么是Spring的MVC框架？"><a href="#64-什么是Spring的MVC框架？" class="headerlink" title="64. 什么是Spring的MVC框架？"></a>64. 什么是Spring的MVC框架？</h3><p>Spring 配备构建Web 应用的全功能MVC框架。Spring可以很便捷地和其他MVC框架集成，如Struts，Spring 的MVC框架用控制反转把业务对象和控制逻辑清晰地隔离。它也允许以声明的方式把请求参数和业务对象绑定。</p>
 <h3 id="65-DispatcherServlet"><a href="#65-DispatcherServlet" class="headerlink" title="65. DispatcherServlet"></a>65. DispatcherServlet</h3><p>Spring的MVC框架是围绕DispatcherServlet来设计的，它用来处理所有的HTTP请求和响应。</p>
 <h3 id="66-WebApplicationContext"><a href="#66-WebApplicationContext" class="headerlink" title="66. WebApplicationContext"></a>66. WebApplicationContext</h3><p>WebApplicationContext 继承了ApplicationContext 并增加了一些WEB应用必备的特有功能，它不同于一般的ApplicationContext ，因为它能处理主题，并找到被关联的servlet。</p>
@@ -344,7 +344,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://quincy0624.github.io/2021/05/19/spring%E6%80%BB%E7%BB%93/" data-id="ckp0zd2ek0003fwiracp02j0b" data-title="spring总结" class="article-share-link">Share</a>
+      <a data-url="https://quincy0624.github.io/2021/05/19/spring%E6%80%BB%E7%BB%93/" data-id="ckp0zfjq60003vwircyifdzzt" data-title="spring总结" class="article-share-link">Share</a>
       
       
       
